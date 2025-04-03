@@ -19,7 +19,10 @@ public class Addition {
        
         // Display the result
         System.out.println("The sum is: " + sum);
-       
+
+	double sub=num1-num2;
+	System.out.println("The subtraction is: "+sub);
+
         // Close the scanner
         scanner.close();
     }
